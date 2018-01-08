@@ -1,24 +1,15 @@
-File Edit Options Buffers Tools Python Help                  
+#Te falt'o poner la exension py a tu archivo
 import numpy as np
-import matplot pyplot as
-make an array of x values for eachs y value
-y=(1996,1997,1998,1999,200,2001,2002,2003,2004,2005,2006,200\
-7,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017)
-make an array of y values
+#te faltaba lib, un punto y el objeto para poder llamar a pyplot
+import matplotlib.pyplot as plt
+
+#make an array of x values for eachs y value
+y=(1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017)
+#make an array of y values
 x=(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,100,21)
-plt.plot (x,y,'md'
+plt.plot (x,y,'md')
 plt.ylabel('anio')
 plt.xlabel('edad')
-plt.title('Edad a traves de los años')
-plt.savefig('Edad,png')
+plt.title('Edad a traves de los anios')
+plt.savefig('Edad.png')
 
-
-
-
-
-
-
-
-
--UUU:----F1  examen.py      All L1     (Python)--------------
-(No changes need to be saved)
